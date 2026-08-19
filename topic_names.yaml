@@ -1,0 +1,72 @@
+# Human-readable names for the LDA topics produced by `analyze.py topics fit`.
+#
+# Keys are "<lang>:<topic id>". Names were assigned by reading the top terms and
+# the representative documents in data/derived/topics/topics_<lang>.txt — the
+# model does not name its own topics. Re-running `topics fit` with different
+# parameters renumbers the topics, so re-read the dump before editing.
+
+# --- English (87,941 documents) -------------------------------------------
+eng:8:  Agentic commerce & checkout instructions
+eng:9:  Local business hours & contact details
+eng:12: Enterprise IT, data & security
+eng:19: SaaS apps, features & pricing
+eng:7:  Site metadata, canonicals & sitemaps
+eng:14: AI/API developer docs & MCP servers
+eng:15: Hospitality, travel & bookings
+eng:13: Industrial equipment & trade services
+eng:4:  Design studios & creative portfolios
+eng:11: Legal, health & professional practices
+eng:3:  Digital marketing & SEO agencies
+eng:1:  Real estate, insurance & finance
+eng:10: Education & language training
+eng:17: Artist catalogues & medical care
+eng:5:  Local services (cleaning, removals)
+eng:2:  Manufacturing & wholesale suppliers
+eng:16: Online stores, orders & shipping
+eng:0:  Product documentation (GitBook-style)
+eng:18: Sales, CRM & messaging tools
+eng:6:  WordPress post & category dumps
+
+# --- German (4,798 documents) ---------------------------------------------
+deu:9:  Company profiles & B2B consulting
+deu:16: Coaching & personal brands
+deu:6:  Online shops & delivery
+deu:12: Real-estate agents
+deu:15: Marketing & web agencies
+deu:5:  Restaurants & hotels
+deu:13: Regional events & city portals
+deu:3:  Swiss platforms & services
+deu:0:  Retail & buying guides
+deu:17: Travel & outdoor in the Alps
+deu:4:  Tax advisers & car dealerships
+deu:10: WordPress post listings
+deu:18: Medical & aesthetic clinics (ChatGPT artefacts)
+deu:19: Last-minute holiday offers
+deu:7:  Regional trades & design
+deu:11: Holiday flats & wellness
+deu:2:  Package holidays & holiday homes
+deu:1:  Custom manufacturing & photography
+deu:8:  Privacy notices & site metadata
+deu:14: Bathroom & renovation trades
+
+# --- French (4,038 documents) ---------------------------------------------
+fra:3:  Web agencies & custom development
+fra:1:  Discussion-forum thread exports
+fra:11: Hotels & restaurants
+fra:15: Content platforms & coaching
+fra:5:  Building trades & call-outs
+fra:2:  Cleaning companies
+fra:10: Product catalogues & quotes
+fra:4:  Law firms & notaries
+fra:8:  How-to guides & blog advice
+fra:17: Insurance & Paris services
+fra:13: Venue catalogues & room hire
+fra:12: Artisan products & workshops
+fra:14: Cosmetics & personal care
+fra:9:  SEO & technical services
+fra:0:  Heating engineers & llms.txt notes
+fra:19: Reviews & pillar-page structures
+fra:18: Training courses & health advice
+fra:16: Cafes & campsites
+fra:7:  Agency pages with ChatGPT artefacts
+fra:6:  Vehicles & miscellaneous
